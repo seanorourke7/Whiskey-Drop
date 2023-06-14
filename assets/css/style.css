@@ -29,7 +29,9 @@ body {
     border: #ffffff solid 3px;
     padding: 20px;
     border-radius: 10px;
-    text-decoration-color: black;
+    text-decoration: none;
+    width: 50%;
+
 
 }
 
@@ -42,4 +44,16 @@ body {
 
 .home-buttons:hover {
     background-color: rgb(255, 174, 0)
+}
+
+#rules-page {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    border: #ffffff solid 3px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 50%;
+    margin: 10%;
+    position: fixed;
 }
