@@ -1,6 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+
 body {
-    background-color: rgb(214, 17, 17);
-    font-family: "Raleway", sans-serif;
-    color: #445361;
+    background-color: rgb(19, 179, 14);
+    font-family: Monomaniac, sans-serif;
+    color: #ffffff;
     text-align: center;
+}
+
+#welcome-text {
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    font-size: xx-large;
+}
+
+#logo {
+    padding: 60px;
+}
+
+.home-buttons {
+    font-size: xx-large;
+    background-color: rgb(19, 179, 14);
+    font-family: Monomaniac, sans-serif;
+    color: white;
+    text-align: center;
+    border: #ffffff solid 3px;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration-color: black;
+
+}
+
+#home-buttons-container {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 60px;
+
+}
+
+.home-buttons:hover {
+    background-color: rgb(255, 174, 0)
 }
