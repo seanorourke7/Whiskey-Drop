@@ -20,6 +20,8 @@ body {
     padding: 60px;
 }
 
+#logo:hover {}
+
 .home-buttons {
     font-size: xx-large;
     background-color: rgb(19, 179, 14);
@@ -47,13 +49,12 @@ body {
 }
 
 #rules-page {
+    border: #ffffff solid 3px;
+    padding-bottom: 10%;
+}
+
+.rules-text {
     font-size: xx-large;
     color: white;
     text-align: center;
-    border: #ffffff solid 3px;
-    border-radius: 10px;
-    text-decoration: none;
-    width: 50%;
-    margin: 10%;
-    position: fixed;
 }
