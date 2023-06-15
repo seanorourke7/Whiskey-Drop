@@ -68,3 +68,14 @@ body {
     color: white;
     text-align: center;
 }
+
+#question-container {
+    display: grid;
+    justify-items: center;
+    font-family: Monomaniac, sans-serif;
+    color: white;
+    text-align: center;
+    border: #ffffff solid 3px;
+    padding: 20px;
+    border-radius: 10px;
+}
