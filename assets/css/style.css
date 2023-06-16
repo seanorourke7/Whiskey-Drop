@@ -70,12 +70,16 @@ body {
 }
 
 #question-container {
-    display: grid;
-    justify-items: center;
+    font-size: xx-large;
+    background-color: rgb(19, 179, 14);
     font-family: Monomaniac, sans-serif;
     color: white;
     text-align: center;
     border: #ffffff solid 3px;
     padding: 20px;
     border-radius: 10px;
+
+    width: 50%;
+    margin: auto;
+
 }
